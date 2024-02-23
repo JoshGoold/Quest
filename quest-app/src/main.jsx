@@ -14,7 +14,7 @@ import './ComponentsCss/Footer.css'
 import './ComponentsCss/Quote.css'
 import './ComponentsCss/Scoller.css'
 import './ComponentsCss/MonthWin.css'
-import './ComponentsCss/Community.css'
+import './ComponentsCss/SCommunity.css'
 import './ComponentsCss/Become.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
