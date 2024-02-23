@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.goal, .goalhead, .goalcontent{
+    display: flex;
+    align-items: center;
+    font-family: Poppins;
+    margin-left: 40px;
+}
+.goalhead {
+   letter-spacing: 5px;
+   font-size: 4em;
+   color: #f1683a;
+}
+.goalhead:before{
+    content: "Our Goal";
+    transform-origin: bottom;
+    transform: rotateX(180deg);
+    line-height: 0.865em;
+    color: transparent;
+    position: absolute;
+    opacity: 0.5;
+    background: linear-gradient(0deg, #f1683a 0, transparent 80%);
+    -webkit-background-clip: text;
+}
+.goalcontent {
+    max-width: 60%;
+    color: white;
+    margin-left: auto;
+    text-shadow: -1.5px 2px 1px black;
+    margin-right: auto;
+}

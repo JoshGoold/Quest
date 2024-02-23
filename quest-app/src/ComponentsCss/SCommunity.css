@@ -1,0 +1,35 @@
+.scomm{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.scommImg{
+    opacity: .1;
+    width: 100%;
+    height: 600px;
+}
+
+
+.scommTitle{
+position: absolute;
+    right: 10%;
+    font-size: 4em;
+    top: 10%;
+    color: #f1683a;
+}
+.scommMessage{
+    top: 30%;
+    position: absolute;
+    right: 11%;
+    max-width: 500px;
+    font-size: 1.2em;
+}
+.scommButton{
+    top: 70%;
+    right: 11%;
+    position: absolute;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+}

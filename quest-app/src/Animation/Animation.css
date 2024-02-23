@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+#text{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-weight: bold;
+    font-size: 1em;
+    color: hsl(0, 0%, 80%);
+    font-family: Poppins;
+}
+.textcontent{
+    margin: 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+#planet{
+    display: flex;
+    justify-content: center;
+    width: 15em;
+    height: 15em;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 
+        0 0 2.5em 0 #fed84c80,
+        0 0 10em 2em #e8a55233,
+        0 0 27.5em 4em #ff4d4d1a;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+#satellite, #satellite::after{
+    content: "";
+    position: absolute;
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+}
+#satellite{
+    background: #ffedd1;
+    box-shadow: -1em 0 2.5em -0.5em white;
+    overflow: hidden;
+    transition: 250ms;
+    left: 16em;
+    transform: rotate(20deg);
+    animation: round 5s infinite ease-in-out;
+}
+#satellite::after{
+    background: #262938;
+    width: 1.25em;
+    left: 1.25em;
+    box-shadow: 0 0 0 0.375em 0.475em #262938;
+    animation: shadow 5s infinite ease-in-out;
+}
+
+@keyframes shadow{
+    0%{
+        width: 1.25em;
+        left: 0;
+    }
+    25%{
+        width: 2.5em;
+        left: 0;
+    }
+    50%{
+        width: 1.25em;
+        left: 1.25em;
+    }
+    75%{
+        width: 0em;
+        left: 2.5em;
+    }
+    80%{
+        left: 0;
+        box-shadow: 0 0 0.275em 0.375em #262938;
+    }
+    100%{
+        width: 1.25em;
+        left: 0;
+    }
+}
+@keyframes round{
+    0%,
+    100%{
+        top: 1em;
+        left: -7.5em;
+        box-shadow: -1em 0 2.5em 0.25em #c6836466;
+    }
+    25%{
+        box-shadow: 0 0 1.5em 0.5em #412104b5;
+    }
+    75%{
+        box-shadow: 0 0 1.5em 0.5em black;
+    }
+    48%{
+        z-index: 2;
+    }
+    50%{
+        left: 20em;
+        top: 10em;
+        z-index: -1;
+        box-shadow: 1em 0 2.5em 0.25em #845a4682;
+    }
+    99%{
+        z-index: -1;
+    }
+}

@@ -1,0 +1,64 @@
+
+.footer .links nav {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+
+}
+.footer
+{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    color: white;
+    font-family: Poppins;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer .links nav li a
+{
+    transition: all 0.18s ease-in-out;
+    cursor: pointer;
+}
+.footer .links nav li a:hover 
+{
+    color: hsl(0, 0%, 90%);
+    transform: scale(1.1);
+}
+.footer .socials ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.socials{
+    float: right;
+}
+.socials li{
+    cursor: pointer;
+}
+.socials li:hover{
+    color: hsl(0, 0%, 90%);
+}
+.links{
+    float: left;
+}
+.footer .logo img{
+    border-radius: 10px;
+    box-shadow: 1px 2px 5px white;
+}
+.foothr{
+   margin-top: 100px;
+    width: 80%;
+    height: 0.0012px;
+}
+.footercopy{
+    color: white;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 2em;
+    margin-right: 40px;
+}
+.csIcon{
+    margin-right: 5px;
+    color: #1F2833;
+}

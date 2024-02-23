@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.artbody{
+    font-family: Poppins;
+    background-color: transparent;
+    color: #eee;
+    margin: 0;
+    font-size: 12px;
+    position: relative;
+   
+}
+.arthead{
+    width: 1140px;
+    max-height: 80%;
+    margin: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+    justify-content: space-between;
+}
+
+.artlink{
+text-decoration: none;
+color: #eee;
+font-size: 1rem;
+transition: 0.18s ease;
+cursor: pointer;
+float: left;
+}
+.artlink:hover{
+    color: hsl(0, 0%, 60%);
+    transform: scale(1.1);
+}
+.arthead .artlink{
+    margin-right: 40px;
+}
+.carousol{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    margin-top: -50px;
+    position: relative;
+}
+.carousol .carolist .item{
+    position: absolute;
+    inset: 0 0 0 0;
+}
+.carousol .carolist .item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 20%;
+}
+.carousol .carolist .item .carocontent{
+    position: absolute;
+    top: 20%;
+    width: 1140px;
+    max-width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-right: 30%;
+    box-sizing: border-box;
+    color: #fff;
+    text-shadow: 0 5px 10px #0004;
+
+}
+.catc{
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+
+.ctopic{
+    color: #f1683a;
+    font-weight: bold;
+    font-size: 3em;
+    line-height: 1.3em;
+}
+.carobutton{
+    display: grid;
+    grid-template-columns: repeat(2, 130px);
+    grid-template-rows: 40px;
+    gap: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.cbutton{
+    border: none;
+    background-color: #eee;
+    letter-spacing: 3px;
+    font-family: Poppins;
+    font-weight: 500;
+    height: 40px;
+    margin-right: 5px;
+    transition: 0.2s all ease-in-out;
+}
+.cbutton:hover{
+    transform: scale(1.1);
+    background-color: hsl(0, 0%, 80%);
+}
+.cbutton:nth-child(2){
+    background-color: transparent;
+    color: #eee;
+    border: 1px solid #eee;
+}
+.desc{
+    font-size: 12px;
+    color: white;
+}
+
+.ARTpostform{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(../assets/art.jpeg);
+    position: absolute;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 40%;
+    padding: 30px;
+    border-radius: 50px;
+    
+}
+.ARTpostform input{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 10px;
+
+}
+.MSCpostform{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(../assets/music.jpeg);
+    position: absolute;
+    color: whitek;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 40%;
+    padding: 30px;
+    border-radius: 50px;
+    
+}
+.MSCpostform input{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 10px;
+
+}
+.CRPpostform{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(../assets/carp.jpeg);
+    position: absolute;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 40%;
+    padding: 30px;
+    border-radius: 50px;
+    
+}
+.CRPpostform input{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 10px;
+
+}
+.PRGpostform{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(../assets/programming.png);
+    position: absolute;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 40%;
+    padding: 30px;
+    border-radius: 50px;
+    
+}
+.PRGpostform input{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 10px;
+
+}
+.DSGpostform{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(../assets/design.jpeg);
+    position: absolute;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 40%;
+    padding: 30px;
+    border-radius: 50px;
+    
+}
+.DSGpostform input{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 10px;
+
+}
+.FNCpostform{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(../assets/finance.webp);
+    position: absolute;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 40%;
+    padding: 30px;
+    border-radius: 50px;
+    
+}
+.FNCpostform input{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 10px;
+
+}
+.LRNpostform{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(../assets/teach.jpeg);
+    position: absolute;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 40%;
+    padding: 30px;
+    border-radius: 50px;
+    
+}
+.LRNostform input{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 10px;
+
+}
+.postshead{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 300;
+    border-left: 2px solid white;
+    padding-left: 15px;
+}
+.arthead button{
+    float: left;
+}
