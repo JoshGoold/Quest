@@ -76,15 +76,15 @@ function Learn() {
                                           <img className="caroimg" src={lea}></img>
                                           <div className="carocontent">
                                                  <div className="cauthor">
-                                                        <p className="catc">MONTHLY WINNER</p>
+                                                        <p className="catc">QUEST</p>
 
                                                         <div className="ctopic">
-                                                               <p className="ctop">LEARN</p>
+                                                               <p className="ctop">TEACH</p>
                                                                <div className="cdes">
-                                                                      <p className="desc">Art is a visual object or experience consciously created through an expression of skill or imagination. It encompasses diverse media such as painting, sculpture, printmaking, drawing, decorative arts, photography, and installation</p>
+                                                                      <p className="desc">Welcome to <b>QUEST TEACH</b> create your profile today and join the Teaching Community, gain access to Community Bounty's and access to Quest's online School! Which guarantees a mastery in any subject! Climb your way up the leaderboards, win monthly prizes, compete in tournaments! <b>WELCOME TO QUEST</b></p>
                                                                </div>
                                                                <div className="carobuttons">
-                                                                      <button onClick={newPost} className="cbutton">POST</button>
+                                                                      <button onClick={newPost} className="cbutton">JOIN NOW</button>
                                                                       <button className="cbutton">SUBSCRIBE</button>
                                                                </div>
                                                         </div>
@@ -114,7 +114,7 @@ function Learn() {
                             money="Prize money: $100 000"/>
                      </div>
                      <SCommunity img={learncom}
-                     title="LEARNING COMMUNITY"
+                     title="TEACHING COMMUNITY"
                      message="Step into the vibrant world of the learning community,
                       where curiosity sparks the flame of knowledge and every question 
                       is a stepping stone to growth. Embrace the journey of lifelong 
@@ -124,7 +124,7 @@ function Learn() {
                       and together, we build a future shaped by the endless possibilities 
                       of education."/>
                       <Become video={video}
-                     title="QUEST LEARN"
+                     title="QUEST TEACH"
                      desc="Master new skills and discover your full potential at our online school. From coding to creativity, we offer diverse courses to elevate your abilities and shape your future success"
                      />
               </div>

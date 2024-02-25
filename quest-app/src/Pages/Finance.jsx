@@ -76,15 +76,15 @@ function Finance() {
                                           <img className="caroimg" src={fin}></img>
                                           <div className="carocontent">
                                                  <div className="cauthor">
-                                                        <p className="catc">MONTHLY WINNER</p>
+                                                        <p className="catc">QUEST</p>
 
                                                         <div className="ctopic">
                                                                <p className="ctop">FINANCE</p>
                                                                <div className="cdes">
-                                                                      <p className="desc">Art is a visual object or experience consciously created through an expression of skill or imagination. It encompasses diverse media such as painting, sculpture, printmaking, drawing, decorative arts, photography, and installation</p>
+                                                                      <p className="desc">Welcome to <b>QUEST FINANCE</b> create your profile today and join the Finance Community, gain access to Community Bounty's and access to Quest's online School! Which guarantees a mastery in any subject! Climb your way up the leaderboards, win monthly prizes, compete in tournaments! <b>WELCOME TO QUEST</b></p>
                                                              </div>
                                                                <div className="carobuttons">
-                                                                      <button onClick={newPost} className="cbutton">POST</button>
+                                                                      <button onClick={newPost} className="cbutton">JOIN NOW</button>
                                                                       <button className="cbutton">SUBSCRIBE</button>
                                                                </div>
                                                         </div>

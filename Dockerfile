@@ -4,14 +4,15 @@ WORKDIR /resume-react
 COPY /quest-app ./quest-app
 RUN cd quest-app && \
     npm install && \
-    npm run build && \
     npm install --save @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome &&\
-    npm install react-router-dom
+    npm install react-router-dom &&\
+    npm run build 
+    
 
 
 # Stage 2: Serve React App
 FROM nginx:alpine
-COPY --from=build /resume-react/quest-app/src /usr/share/nginx/html
+COPY --from=build /resume-react/quest-app/dist /usr/share/nginx/html
 COPY config/nginx.conf /etc/nginx/nginx.conf
 COPY config/conf.d /etc/nginx/conf.d/
 

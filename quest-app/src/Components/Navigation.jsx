@@ -76,7 +76,7 @@ function Navigation(props){
                 <li><button className="main-nav-button" onClick={handleButtonCarp}>Carpentry</button></li>
                 <li><button className="main-nav-button" onClick={handleButtonArt}>Art</button></li>
                 <li><button className="main-nav-button" onClick={handleButtonDesign}>Design</button></li>
-                <li><button className="main-nav-button" onClick={handleButtonLearn}>Learn</button></li>
+                <li><button className="main-nav-button" onClick={handleButtonLearn}>Teach</button></li>
                 <li><button className="main-nav-button"onClick={handleButtonFinance}>Finance</button></li>
                 <li><button className="main-nav-button"onClick={handleButtonProgram}>Programming</button></li>
                 <li><button className="main-nav-button"onClick={handleButtonMusic}>Music</button></li>

@@ -79,17 +79,17 @@ function Art() {
                                           <img className="caroimg" src={art}></img>
                                           <div className="carocontent">
                                                  <div className="cauthor">
-                                                        <p className="catc">MONTHLY WINNER</p>
+                                                        <p className="catc">QUEST</p>
 
                                                         <div className="ctopic">
                                                                <p className="ctop">ART</p>
                                                                <div className="cdes">
-                                                                      <p className="desc">Art is a visual object or experience consciously created through an expression of skill or imagination. It encompasses diverse media such as painting, sculpture, printmaking, drawing, decorative arts, photography, and installation</p>
+                                                                      <p className="desc">Welcome to <b>QUEST ART</b> create your profile today and join the Art Community, gain access to Community Bounty's and access to Quest's online School! Which guarantees a mastery in any subject! Climb your way up the leaderboards, win monthly prizes, compete in tournaments! <b>WELCOME TO QUEST</b></p>
                                                                </div>
                                                                <div className="carobuttons">
 
                                                                       <button className="cbutton">SUBSCRIBE</button>
-                                                                      <button className="cbutton">ENTER COMPETITION</button>
+                                                                      <button className="cbutton">JOIN NOW</button>
                                                                </div>
                                                         </div>
                                                  </div>

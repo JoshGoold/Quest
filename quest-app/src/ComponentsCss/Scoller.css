@@ -2,6 +2,7 @@
 
 .scroller {
     max-width: 1200px;
+    font-family: Poppins;
   }
   
   .scroller__inner {
