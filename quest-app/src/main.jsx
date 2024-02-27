@@ -16,6 +16,8 @@ import './ComponentsCss/Scoller.css'
 import './ComponentsCss/MonthWin.css'
 import './ComponentsCss/SCommunity.css'
 import './ComponentsCss/Become.css'
+import './PageCss/Community.css'
+import './ComponentsCss/Profile.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

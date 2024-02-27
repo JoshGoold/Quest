@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.communityhead{
+    font-family: Poppins;
+    color: white;
+   
+}
+.communityhead .headbtn{
+    float: right;
+    height: 30px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    padding: 30px;
+    transition: 0.2s all ease-in-out;
+}
+.communityhead .headbtn:hover{
+    transform: scale(1.1);
+}
+.communityhead .title{
+   font-size: 13px;
+   padding: 15px;
+   margin-left: -100px;
+}
+.communityhead .panel{
+    margin-top: -25px;
+    margin-left: -10px;
+    background-color: #1F2833;
+    float: left;
+    max-width: 20%;
+    height: 100vh;
+    position: fixed;
+
+}
+.communityhead .panel ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
+    margin-left: -10px;
+}
+.communityhead .panel ul li{
+    background-color: #45A29E;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+
+}
+.communityhead .panel ul li:hover{
+    background-color: hsl(0, 0%, 15%);
+}

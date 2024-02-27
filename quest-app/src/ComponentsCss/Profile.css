@@ -1,0 +1,146 @@
+.profilehead{
+    background-color: rgba(255, 255, 255, 0.873);
+    width: 70%;
+    font-family: Poppins;
+    border-radius: 5px;
+}
+.profilehead .coverimg img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  
+}
+.profilehead .profilepic img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    left: 45%;
+    top: 4%;
+    
+   position: absolute;
+    margin-top: 60px;
+}
+.msxbody{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+.profilehead .headcount a{
+    margin-right: 4px;
+}
+.profilehead .headcount span{
+    color: black;
+    font-size: 10px;
+    margin-right: 10px;
+
+}
+.profilehead .headcount{
+  text-align: center;
+  border-radius: 10px;
+    padding: 5px;
+    ;
+}
+.profilehead .headcount button{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    letter-spacing: 2px;
+    border: none;
+   
+    margin-right: 3px;
+    border-radius: 5px;
+}
+.profilehead .navigation{
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: #1F2833;
+}
+.profilehead .navigation ul li{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: hwb(213 12% 77%);
+}
+.profilehead .navigation ul li:hover{
+    background-color: hwb(213 12% 82%);
+}
+.communityFeed {
+    background-color: #1F2833;
+    width: 67%;
+
+    font-family: Poppins;
+    
+}
+.communityFeed img{
+    max-width: 775px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.communityFeed  {
+  
+    border: 2px solid grey;
+    padding: 2%;
+    border-radius: 30px;
+    background-color: white;
+   width: 780px;
+    
+}
+.communityFeed a{
+    transition: 0.2s all ease-in-out; 
+    cursor: pointer;
+    
+}
+
+.communityFeed a:hover{
+    transform: scale(1.1);
+}
+.communityFeed  input{
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.communityFeed  .pro{
+    float: right;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+.communityFeed  .progadget{
+    float: right;
+    font-size: 10px;
+    margin-top: 18px;
+    padding: 3px;
+}
+.uipost{
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+.uipost .submission{
+    border-radius: 10px;
+    width: 80%;
+}
+.uipost img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.uipost button{
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: greenyellow;
+    border: 1px solid greenyellow;
+    border-radius: 50%;
+}
+.uipost .insertimg{
+    background-color: transparent;
+}

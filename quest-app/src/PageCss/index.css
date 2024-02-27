@@ -5,6 +5,7 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
+  
   overflow: auto;
   -ms-overflow-style: none; /* Internet Explorer and Microsoft Edge */ 
   scrollbar-width: thin;
